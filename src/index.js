@@ -21,5 +21,5 @@ app.get('/', async (req, res) => {
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {
-    console.log(`Servidor em pé na porta ${port}`)
+    console.log(`Servidor em pé na porta: ${port}`)
 })
